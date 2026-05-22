@@ -1,0 +1,19 @@
+--cpu Cortex-M3
+".\objects\bootloader.o"
+".\objects\ip_flash.o"
+".\objects\ip_uart.o"
+".\objects\main.o"
+".\objects\assert.o"
+".\objects\crc.o"
+".\objects\protocol.o"
+".\objects\stm32f10x_flash.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_usart.o"
+".\objects\gpio_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\BTL.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\BTL.map" -o .\Objects\BTL.axf

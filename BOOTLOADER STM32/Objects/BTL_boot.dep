@@ -1,0 +1,145 @@
+Dependencies for Project 'BTL', Target 'boot': (DO NOT MODIFY !)
+F (.\Application_Layer\inc\bootloader.h)(0x69F7AD48)()
+F (.\Application_Layer\src\bootloader.c)(0x69F7B122)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\bootloader.o --omf_browse .\objects\bootloader.crf --depend .\objects\bootloader.d)
+I (.\Application_Layer\inc\bootloader.h)(0x69F7AD48)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\Middleware_Layer\inc\protocol.h)(0x69F78209)
+I (.\IP_Layer\inc\ip_uart.h)(0x69F78208)
+I (.\IP_Layer\inc\ip_flash.h)(0x69F78209)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61AD876E)
+F (.\IP_Layer\inc\ip_flash.h)(0x69F78209)()
+F (.\IP_Layer\inc\ip_uart.h)(0x69F78208)()
+F (.\IP_Layer\src\ip_flash.c)(0x69F7846C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\ip_flash.o --omf_browse .\objects\ip_flash.crf --depend .\objects\ip_flash.d)
+I (.\IP_Layer\inc\ip_flash.h)(0x69F78209)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61AD876E)
+F (.\IP_Layer\src\ip_uart.c)(0x69F7846C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\ip_uart.o --omf_browse .\objects\ip_uart.crf --depend .\objects\ip_uart.d)
+I (.\IP_Layer\inc\ip_uart.h)(0x69F78208)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD876E)
+F (.\main\main.c)(0x69F7AD48)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (main\main.h)(0x69F78209)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\Application_Layer\inc\bootloader.h)(0x69F7AD48)
+F (.\main\main.h)(0x69F78209)()
+F (.\main\stm32f10x_conf.h)(0x69E1E292)()
+F (.\main\assert.c)(0x69E32F9C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\assert.o --omf_browse .\objects\assert.crf --depend .\objects\assert.d)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+F (.\Middleware_Layer\inc\crc.h)(0x69F78209)()
+F (.\Middleware_Layer\inc\protocol.h)(0x69F78209)()
+F (.\Middleware_Layer\src\crc.c)(0x69F78209)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\crc.o --omf_browse .\objects\crc.crf --depend .\objects\crc.d)
+I (.\Middleware_Layer\inc\crc.h)(0x69F78209)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+F (.\Middleware_Layer\src\protocol.c)(0x69F78209)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\protocol.o --omf_browse .\objects\protocol.crf --depend .\objects\protocol.d)
+I (.\Middleware_Layer\inc\protocol.h)(0x69F78209)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (.\IP_Layer\inc\ip_uart.h)(0x69F78208)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\Middleware_Layer\inc\crc.h)(0x69F78209)
+F (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_flash.c)(0x61AD876E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+F (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x61AD876E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+F (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x61AD876E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+F (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\src\stm32f10x_usart.c)(0x61AD876E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x61AD876E)
+F (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver\GPIO_STM32F10x.c)(0x5FC05DFA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\gpio_stm32f10x.o --omf_browse .\objects\gpio_stm32f10x.crf --depend .\objects\gpio_stm32f10x.d)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver\GPIO_STM32F10x.h)(0x5FC05DFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55DB3986)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5FBFFB8A)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x61AD24FE)(--cpu Cortex-M3 -g --apcs=interwork -I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x61AD24FE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\main -I.\IP_Layer\inc -I.\Middleware_Layer\inc -I.\Application_Layer\inc-I "D:\Downloads\BOOTLOADER STM32\RTE"-I "D:\Downloads\BOOTLOADER STM32\RTE\Device\STM32F103C8"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\StdPeriph_Driver\inc"-I "C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\RTE_Driver"-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (D:\Downloads\BOOTLOADER STM32\RTE\RTE_Components.h)(0x69F78C7A)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB3990)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\Nguyen Kim Hoang\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
